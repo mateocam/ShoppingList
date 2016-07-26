@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hu.ait.android.shoppinglist" >
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/car"
+        android:label="Shopping List"
+        android:theme="@style/AppThemeWithActionBar" >
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="shopping_list.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="4" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="hu.ait.android.shoppinglist.data" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="List of Items"
+            android:icon="@drawable/car"
+            android:theme="@style/AppThemeNoActionBar">
+        </activity>
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="Shopping List"
+            android:icon="@drawable/car"
+            android:theme="@style/AppThemeWithActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CreateNewItem"
+            android:label="Create New Item"
+            android:icon="@drawable/car"
+            android:theme="@style/Theme.AppCompat.Dialog">
+        </activity>
+
+    </application>
+
+</manifest>

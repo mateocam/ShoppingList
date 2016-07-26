@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:hint="Item name"
+        android:textSize="20sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Item type:"
+        android:textSize="20sp"
+        android:paddingLeft="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:textSize="20sp"
+        android:id="@+id/spinnerItemType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etItemPrice"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="Estimated price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etItemDesc"
+        android:textSize="20sp"
+        android:hint="Descrpition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbDone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchased"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

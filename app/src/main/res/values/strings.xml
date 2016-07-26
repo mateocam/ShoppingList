@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_activity">splash_activity</string>
+    <string name="title_activity_create_new_item">CreateNewItem</string>
+    <string name="action_hide">Hide</string>
+    <string name="txt_item_added">Item added!</string>
+    <string name="txt_item_edited">Item edited!</string>
+    <string name="txt_add_cancel">Item adding cancelled</string>
+    <string name="create_warning">can\'t creat item without a name and price</string>
+</resources>
+
